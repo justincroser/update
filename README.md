@@ -8,7 +8,8 @@ Neofetch only plus Piholes(disabled on all by default) / Flatpak / Snaps if used
 Works with Debian / Ubuntu / and Fedora based systems. For the master file you must remove the # for what is needed unless you download the file for your required use case which is should be enabled out of the box so to speak.
 
 ### How to run the script
-Don't forget to CHMOD + x this file to make it executable but it should be already done for you. Also make sure to run as sudo in the terminal ie `sudo bash update.sh` it will then proceed to run the commands all for you one after the other so you don't have to write seperate lines in the terminal.
+Just place the update.sh file in your home directory then open up a terminal and run as sudo ie `sudo bash update.sh` it will then proceed to run the commands all for you one after the other so you don't have to write seperate lines in the terminal.
+If it does not run make sure it is able to run as an executable either CHMOD + x the file or right click on it and toggle executable as program.
 
 ### Example
 `sudo bash update.sh` from the ubuntu-all folder will run and execute the following:
