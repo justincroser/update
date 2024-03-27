@@ -2,14 +2,14 @@
 An update script for linux based systems running Fedora/Red Hat including their forks.
 
 ### Dependancies
-Neofetch only plus Piholes(disabled on all by default) / Flatpak / Snaps if used I have made separate files for each individual case you just need to download the correct one with the enabled dependencies.
+Neofetch only plus Piholes(disabled on all by default) / Flatpak if used I have made separate files for each individual case you just need to download the correct one with the enabled dependencies.
 
 ### How to run the script
 Just place the update.sh file in your home directory then open up a terminal and run as sudo ie `sudo bash update.sh` it will then proceed to run the commands all for you one after the other so you don't have to write seperate lines in the terminal.
 If it does not run make sure it is able to run as an executable either CHMOD + x the file or right click on it and toggle executable as program.
 
 ### This script runs the following commands
-`sudo bash update.sh` from the fedora-all folder will run and execute the following:
+`sudo bash update.sh` from the fedora-just-flatpak folder will run and execute the following:
 - `sudo dnf update` - updates the system package base and updates packages installed in the system
 - `sudo dnf upgrade` - upgrade any packages to their most recent version
 - `sudo dnf autoremove` - removes orphaned packages that are no longer needed in the system. For example a package needed something to run but no longer requires it to do so neither does` any other package.
