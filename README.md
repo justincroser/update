@@ -19,7 +19,6 @@ If it does not run make sure it is able to run as an executable either CHMOD + x
 - `sudo apt autoclean` - removes orphaned packages that are no longer needed in the system. For example a package needed something to run but no longer requires it to do so neither does` any other package.
 - `sudo flatpak update` - updates all flatpak packages installed on the system
 - `sudo snap refresh` - updates all snap packages installed on the system
-- `sudo dnf downgrade package_name`
 
 The script will then ask if you want to reboot the system just press Y and enter for yes which will then reboot the system or press N and enter for no to show a nice neofetch ASCII art of the current system information.
 
