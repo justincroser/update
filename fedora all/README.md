@@ -11,15 +11,13 @@ Works with Debian / Ubuntu / and Fedora based systems. For the master file you m
 Just place the update.sh file in your home directory then open up a terminal and run as sudo ie `sudo bash update.sh` it will then proceed to run the commands all for you one after the other so you don't have to write seperate lines in the terminal.
 If it does not run make sure it is able to run as an executable either CHMOD + x the file or right click on it and toggle executable as program.
 
-### Example
+### This script runs the following commands
 `sudo bash update.sh` from the ubuntu-all folder will run and execute the following:
-- `sudo apt update` - updates the system package base and updates packages installed in the system
-- `sudo apt upgrade` - upgrade any packages to their most recent version
-- `sudo apt autoclean` - removes files that can no longer be downloaded and are virtually useless this cleans up keep your cache from growing too large.
-- `sudo apt autoclean` - removes orphaned packages that are no longer needed in the system. For example a package needed something to run but no longer requires it to do so neither does` any other package.
+- `sudo dnf update` - updates the system package base and updates packages installed in the system
+- `sudo dnf upgrade` - upgrade any packages to their most recent version
+- `sudo apt autoremove` - removes orphaned packages that are no longer needed in the system. For example a package needed something to run but no longer requires it to do so neither does` any other package.
 - `sudo flatpak update` - updates all flatpak packages installed on the system
 - `sudo snap refresh` - updates all snap packages installed on the system
-- `sudo dnf downgrade package_name`
 
 The script will then ask if you want to reboot the system just press Y and enter for yes which will then reboot the system or press N and enter for no to show a nice neofetch ASCII art of the current system information.
 
