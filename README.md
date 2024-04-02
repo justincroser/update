@@ -16,7 +16,7 @@ If it does not run make sure it is able to run as an executable either CHMOD + x
 - `sudo apt update` - updates the system package base and updates packages installed in the system
 - `sudo apt upgrade` - upgrade any packages to their most recent version
 - `sudo apt autoclean` - removes files that can no longer be downloaded and are virtually useless this cleans up keep your cache from growing too large.
-- `sudo apt autoclean` - removes orphaned packages that are no longer needed in the system. For example a package needed something to run but no longer requires it to do so neither does` any other package.
+- `sudo apt autoremove` - removes orphaned packages that are no longer needed in the system. For example a package needed something to run but no longer requires it to do so neither does` any other package.
 - `sudo flatpak update` - updates all flatpak packages installed on the system
 - `sudo snap refresh` - updates all snap packages installed on the system
 
